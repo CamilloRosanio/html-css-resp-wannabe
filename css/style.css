@@ -139,13 +139,28 @@ img {
 
 /* MOBILE */
 
- @media screen and (max-width:768px) {
-    .lessons .row {
-        flex-wrap: wrap;
-        gap:2rem;
+    /* section .lessons */
+
+    @media screen and (max-width:768px) {
+        .lessons .row {
+            flex-wrap: wrap;
+            gap:2rem;
+        }
+
+        .lessons .col {
+            width:100%;
+        }
     }
 
-    .lessons .col {
-        width:100%;
+    /* section .steps */
+
+    @media screen and (max-width:768px) {
+        .steps .row {
+            flex-wrap: wrap;
+            gap: 5rem;
+        }
+
+        .steps .col {
+            width:100%;
+        }
     }
- }
