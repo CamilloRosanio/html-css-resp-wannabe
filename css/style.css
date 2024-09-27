@@ -128,6 +128,13 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* # DESKTOP */
+    @media screen and (max-width:1035px) {
+        .container {
+            width:100%;
+        }
+    }
+
 /* # TABLET */
 
  @media screen and (max-width:768px) {
@@ -139,22 +146,54 @@ img {
 
 /* MOBILE */
 
-    /* section .lessons */
+    @media screen and (max-width:480px) {
+        
+        /* BODY body */
+        body {
+            background-color: rgb(43, 43, 43);
+        }
 
-    @media screen and (max-width:768px) {
+        /* HEADER header */
+        .site-header {
+            background-color: #232946;
+            margin-top:0;
+        }
+
+        h1 {
+            margin-bottom: 0;
+            padding:3rem 0;
+        }
+
+        /* CONTAINER .container */
+        .container {
+            padding: 0 2rem;
+        }
+
+        /* SECTION .lessons */
+        .lessons {
+            background-color: #232946;
+            margin-bottom:0;
+            padding-bottom: 3rem;;
+        }
+        
         .lessons .row {
             flex-wrap: wrap;
-            gap:2rem;
+            gap:5rem;
         }
 
         .lessons .col {
             width:100%;
         }
-    }
 
-    /* section .steps */
 
-    @media screen and (max-width:768px) {
+        /* SECTION .steps */
+
+        .steps {
+            margin-bottom:0;
+            margin-top:0;
+            padding-top:3rem;
+        }
+        
         .steps .row {
             flex-wrap: wrap;
             gap: 5rem;
@@ -163,4 +202,28 @@ img {
         .steps .col {
             width:100%;
         }
+
+    
+        /* SECTION .why-us */
+
+        .why-us {
+            padding-top:3rem;
+        }
+        
+        .why-us .row {
+            flex-wrap: wrap;
+            gap: 5rem;
+        }
+
+        .why-us .col {
+            width:100%;
+        }
+
+    
+    }
+
+    /* section .why-us */
+
+    @media screen and (max-width:480px) {
+        
     }
