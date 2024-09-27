@@ -129,7 +129,7 @@ img {
  ************************************************/
 
 /* # DESKTOP */
-    @media screen and (max-width:1035px) {
+    @media screen and (max-width:1160px) {
         .container {
             width:100%;
         }
