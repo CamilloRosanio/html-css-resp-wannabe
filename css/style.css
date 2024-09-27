@@ -140,7 +140,12 @@ img {
 /* MOBILE */
 
  @media screen and (max-width:768px) {
-    .container {
+    .lessons .row {
+        flex-wrap: wrap;
+        gap:2rem;
+    }
+
+    .lessons .col {
         width:100%;
     }
  }
